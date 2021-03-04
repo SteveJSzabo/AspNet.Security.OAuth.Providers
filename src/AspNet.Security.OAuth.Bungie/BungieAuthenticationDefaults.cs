@@ -39,11 +39,11 @@ namespace AspNet.Security.OAuth.Bungie
         /// </summary>
         public const string TokenEndpoint = "https://www.bungie.net/platform/app/oauth/token/";
 
-
-
         /// <summary>
         /// Default value for <see cref="OAuthOptions.UserInformationEndpoint"/>.
         /// </summary>
         public const string UserInformationEndpoint = "https://www.bungie.net/platform/User/GetMembershipsForCurrentUser/";
+
+        public const string XAPIKey = "Bungie";
     }
 }

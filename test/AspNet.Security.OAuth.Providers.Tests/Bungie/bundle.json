@@ -9,7 +9,8 @@
         "access_token": "secret-access-token",
         "token_type": "access",
         "refresh_token": "secret-refresh-token",
-        "expires_in": "300"
+        "refresh_expires_in": "300",
+        "membership_id": "1234567"
       }
     },
     {
