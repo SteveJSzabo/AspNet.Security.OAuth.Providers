@@ -23,7 +23,7 @@ namespace AspNet.Security.OAuth.Bungie
             TokenEndpoint = BungieAuthenticationDefaults.TokenEndpoint;
             UserInformationEndpoint = BungieAuthenticationDefaults.UserInformationEndpoint;
 
-            ClaimActions.MapJsonKey(ClaimTypes.NameIdentifier, "id");
+            ClaimActions.MapJsonKey("X-API-Key", "APIKey");
             ClaimActions.MapJsonKey(ClaimTypes.Name, "name");
             ClaimActions.MapJsonKey(ClaimTypes.Email, "email");
         }
